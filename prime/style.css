@@ -1,0 +1,102 @@
+body {
+	background: #111;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.stars {
+	color: white;
+}
+
+.xcontainer {
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	background: #0e0e0e;
+	padding-bottom: 120px;
+}
+
+.xheader {
+	background: url('https://i.imgur.com/Yv6qtRt.jpg');
+	width: 100%;
+	height: 150px;
+	background-size: auto auto;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	font-family: Impact;
+	line-height: 150px;
+	font-size: 300%;
+	border-bottom: 1px solid green;
+}
+
+.xheader a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.xcontainer h2 {
+	text-align: center;
+	background: none;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 17pt;
+}
+
+.xgam {
+	text-align: center;
+	padding: 10px 0;
+	
+}
+
+.xgam img {
+	transition: 1s ease-in-out all;
+	border: 1px solid #333;
+}
+
+.xgam:hover img, .xgam:active img {
+	border-color: #645394;
+	transition: 1s ease-in-out all;
+}
+
+.xgam a {
+	text-decoration: none !important;
+}
+
+.xgam .caption {
+	color: #fff;
+	font-size: 80%;
+	text-align: center;
+	text-decoration: none !important;
+}
+
+.xgam img {
+	border-radius: 8px;
+}
+
+.xgam-names {
+	display: none;
+}
+
+#xsearch {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #777;
+	display: inline-block;
+	outline: none;
+	margin: 30px auto;
+	padding: 5px 0;
+	color: #aaa;
+	text-align: center;
+	transition: 1s ease-in-out all;
+	width: 100%;
+}
+
+#xsearch:focus {
+	border-color: #645394;
+	transition: 1s ease-in-out all;
+	color: #fff;
+	font-size: 130%;
+}
